@@ -1,0 +1,17 @@
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.deps.json
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.AssemblyReference.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.AssemblyInfoInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.AssemblyInfo.cs
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.CoreCompileInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.CopyComplete
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\refint\Bootcamp.Repository.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\ref\Bootcamp.Repository.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.pdb

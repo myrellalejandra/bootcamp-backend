@@ -1,0 +1,15 @@
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\bin\Release\net6.0\Bootcamp.Queries.deps.json
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\bin\Release\net6.0\Bootcamp.Queries.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\bin\Release\net6.0\Bootcamp.Queries.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\bin\Release\net6.0\Bootcamp.ViewModel.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\bin\Release\net6.0\Bootcamp.ViewModel.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.csproj.AssemblyReference.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.AssemblyInfoInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.AssemblyInfo.cs
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.csproj.CoreCompileInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.csproj.CopyComplete
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\refint\Bootcamp.Queries.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\Bootcamp.Queries.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Queries\obj\Release\net6.0\ref\Bootcamp.Queries.dll

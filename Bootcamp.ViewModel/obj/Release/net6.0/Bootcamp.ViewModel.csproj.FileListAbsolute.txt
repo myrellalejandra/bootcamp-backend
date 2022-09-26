@@ -1,0 +1,12 @@
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\bin\Release\net6.0\Bootcamp.ViewModel.deps.json
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\bin\Release\net6.0\Bootcamp.ViewModel.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\bin\Release\net6.0\Bootcamp.ViewModel.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.csproj.AssemblyReference.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.GeneratedMSBuildEditorConfig.editorconfig
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.AssemblyInfoInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.AssemblyInfo.cs
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.csproj.CoreCompileInputs.cache
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\refint\Bootcamp.ViewModel.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\Bootcamp.ViewModel.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.ViewModel\obj\Release\net6.0\ref\Bootcamp.ViewModel.dll
