@@ -1,0 +1,74 @@
+
+/*-PROCEDIMIENTOS TIPO DE DOCUMENTO*/
+CREATE PROCEDURE [dbo].[Usp_Sel_DocumentType]
+AS
+BEGIN
+	SELECT Id, Name, ShortName
+	FROM [dbo].[DocumentType]
+END
+
+SELECT * FROM DocumentType;
+/*-----------------------------PERSON-----------------------*/
+CREATE TABLE [dbo].[Person](
+  Id INT PRIMARY KEY IDENTITY,
+  Name VARCHAR(50),
+  Lastname VARCHAR(50),
+  DocumentTypeId INT REFERENCES [dbo].[DocumentType] (Id),
+  DocumentNumber VARCHAR(50)
+  )
+/*---------------------------------------------------------*/
+
+/*-PROCEDIMIENTOS PERSONA*/
+ /*----------------------------------CREATE ----------------------------*/
+  CREATE PROCEDURE [dbo].[Usp_Ins_Person]
+  @Name VARCHAR(50),
+  @LastName VARCHAR(50),
+  @DocumentTypeId INT,
+  @DocumentNumber VARCHAR(50) 
+  AS
+  BEGIN
+	INSERT INTO [dbo].[Person]
+	(Name , Lastname , DocumentTypeId, DocumentNumber)
+	VALUES
+	(@Name, @LastName, @DocumentTypeId, @DocumentNumber)
+  END
+
+  /*-------------READ -LISTA DE PERSONAS JOIN CON TABLA DE DOCUMENT TYPE-----------------*/
+  CREATE PROCEDURE [dbo].[Usp_Read_Person]  
+  AS
+  BEGIN
+	SELECT per.Name , per.Lastname , docType.Name , per.DocumentNumber
+	FROM [dbo].[Person] per
+	JOIN [dbo].[DocumentType] docType
+	ON docType.Id = DocumentTypeId
+  END
+
+
+ /*--------------------UPDATE - ACTUALIZACION DE REGISTROS POR MEDIO DE ID----------------*/
+ 
+ CREATE PROCEDURE [dbo].[Usp_Upd_Person]
+  @Id INT,
+  @Name VARCHAR(50),
+  @LastName VARCHAR(50),
+  @DocumentTypeId INT,
+  @DocumentNumber VARCHAR(50)  
+  AS
+  BEGIN
+	UPDATE [dbo].[Person]
+	SET 
+		Name = @Name, 
+		Lastname = @LastName, 
+		DocumentTypeId = @DocumentTypeId, 
+		DocumentNumber = @DocumentNumber
+	WHERE (Id = @Id)
+  END
+
+  /*----------------------------DELETE - ELIMINAR REGISTRO POR ID------------------------*/
+  CREATE PROCEDURE [dbo].[Usp_Dlt_Person]  
+  @Id INT
+  AS
+  BEGIN
+	DELETE
+	FROM [dbo].[Person] 
+	WHERE Id = @Id
+  END
