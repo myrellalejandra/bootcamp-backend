@@ -9,9 +9,9 @@ namespace Bootcamp.ViewModel
     public class DocumentTypeViewModel
     {
         public int Id { get; set; }
-        public String Name { get; set; }
+        public string Name { get; set; }
 
-        public String ShortName { get; set; }
+        public string ShortName { get; set; }
 
     }
 }

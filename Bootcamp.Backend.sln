@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp.Queries", "Bootcam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp.ViewModel", "Bootcamp.ViewModel\Bootcamp.ViewModel.csproj", "{C389A39E-07E6-467E-8204-B350DAE526F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootcamp.Repository", "Bootcamp.Repository\Bootcamp.Repository.csproj", "{7BE00F37-C021-4BF5-B69B-08A1E51A22B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp.Repository", "Bootcamp.Repository\Bootcamp.Repository.csproj", "{7BE00F37-C021-4BF5-B69B-08A1E51A22B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootcamp.Model", "Bootcamp.Model\Bootcamp.Model.csproj", "{6A1032A3-5303-4CF3-82D7-C5151ED33B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootcamp.Model", "Bootcamp.Model\Bootcamp.Model.csproj", "{6A1032A3-5303-4CF3-82D7-C5151ED33B49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{5963E28D-2908-4F22-ACDF-EB9066009D6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

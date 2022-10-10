@@ -1,5 +1,4 @@
 ﻿using Bootcamp.Queries.DocumentType;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bootcamp.Api.Controllers
@@ -8,8 +7,8 @@ namespace Bootcamp.Api.Controllers
     [ApiController]   
     public class DocumentTypeController : ControllerBase
     {
-        private readonly IDocumentTypeQueries _documentTypesQueries;
-        public DocumentTypeController(IDocumentTypeQueries documentTypeQueries)
+        private readonly IDocumenTypeQueries _documentTypesQueries;
+        public DocumentTypeController(DocumenTypeQueries documentTypeQueries)
         {
             _documentTypesQueries = documentTypeQueries;
         }

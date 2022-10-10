@@ -36,3 +36,7 @@ E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\obj\Release\net6
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\obj\Release\net6.0\Bootcamp.Api.pdb
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\obj\Release\net6.0\Bootcamp.Api.genruntimeconfig.cache
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\obj\Release\net6.0\ref\Bootcamp.Api.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\bin\Release\net6.0\Bootcamp.Model.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\bin\Release\net6.0\Bootcamp.Repository.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\bin\Release\net6.0\Bootcamp.Repository.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Api\bin\Release\net6.0\Bootcamp.Model.pdb

@@ -29,6 +29,7 @@ namespace Bootcamp.Repository
             parameters.Add("@LastName", person.LastName);
             parameters.Add("@DocumentTypeId", person.DocumentTypeId);
             parameters.Add("@DocumentNumber", person.DocumentNumber);
+            parameters.Add("@Birthday", person.Birthday);
 
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -37,17 +38,6 @@ namespace Bootcamp.Repository
 
             return result;
 
-        }
-
-        public async Task<IEnumerable<Person>> Read()
-        {
-            IEnumerable<PersonViewModel> result = new List<PersonViewModel>();
-
-            using (var connection = new SqlConnection(_connectionString))
-            {
-                result = await connection.QueryAsync<PersonViewModel>("[dbo].[Usp_Read_Person]", commandType: System.Data.CommandType.StoredProcedure);
-            }
-            return result;
         }
 
         public async Task<int> Update(Person person)
@@ -59,6 +49,7 @@ namespace Bootcamp.Repository
             parameters.Add("@LastName", person.LastName);
             parameters.Add("@DocumentTypeId", person.DocumentTypeId);
             parameters.Add("@DocumentNumber", person.DocumentNumber);
+            parameters.Add("@Birthday", person.Birthday);
 
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -68,11 +59,11 @@ namespace Bootcamp.Repository
 
         }
 
-        public async Task<int> Delete(Person person)
+        public async Task<int> Delete(int id)
         {
             int result;
             var parameters = new DynamicParameters();
-            parameters.Add("@Id", person.Id);
+            parameters.Add("@Id", id);
 
             using (var connection = new SqlConnection(_connectionString))
             {

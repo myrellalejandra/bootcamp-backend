@@ -2,7 +2,9 @@ E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.dll
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Repository.pdb
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.dll
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.dll
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.Model.pdb
+E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.pdb
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.csproj.AssemblyReference.cache
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.GeneratedMSBuildEditorConfig.editorconfig
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.AssemblyInfoInputs.cache
@@ -13,5 +15,3 @@ E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\refint\Bootcamp.Repository.dll
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\Bootcamp.Repository.pdb
 E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\obj\Debug\net6.0\ref\Bootcamp.Repository.dll
-E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.dll
-E:\Archivos\Cursos\GYSis\bootcamp\bootcamp-backend\Bootcamp.Repository\bin\Debug\net6.0\Bootcamp.ViewModel.pdb

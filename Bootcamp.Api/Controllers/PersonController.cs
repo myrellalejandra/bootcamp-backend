@@ -1,5 +1,7 @@
 ﻿using Bootcamp.Model;
+using Bootcamp.Queries.Person;
 using Bootcamp.Repository;
+using Bootcamp.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Bootcamp.Api.Controllers
@@ -8,10 +10,12 @@ namespace Bootcamp.Api.Controllers
     [ApiController]
     public class PersonController : ControllerBase
     {
-        private  readonly IPersonRepository _personRepository;
-        public PersonController(IPersonRepository personRepository)
+        private readonly IPersonRepository _personRepository;
+        private readonly IPersonQueries _personQueries;
+        public PersonController(IPersonRepository personRepository, IPersonQueries iPersonQueries)
         {
             _personRepository = personRepository;
+            _personQueries = iPersonQueries;
         }
 
         [HttpPost]
@@ -26,8 +30,21 @@ namespace Bootcamp.Api.Controllers
         [Route("Read")]
         public async Task<ActionResult> Read()
         {
-            var result = await _personRepository.Read();
+            var result = await _personQueries.Read();
             return Ok(result);
+        }
+
+        [HttpGet]
+        [Route("{id}")]
+        public async Task<ActionResult> GetById([FromRoute] int id)
+        {
+            var result = await _personQueries.GetById(id);
+
+            if (result == null)
+                return NotFound();
+
+            return Ok(result);
+
         }
 
         [HttpPut]
@@ -38,11 +55,11 @@ namespace Bootcamp.Api.Controllers
             return Ok(result);
         }
 
-        [HttpGet]
-        [Route("Delete")]
-        public async Task<ActionResult> Delete([FromBody] Person person)
+        [HttpDelete]
+        [Route("{id}")]
+        public async Task<ActionResult> Delete([FromRoute] int  id)
         {
-            var result = await _personRepository.Delete(person);
+            var result = await _personRepository.Delete(id);
             return Ok(result);
         }
     }

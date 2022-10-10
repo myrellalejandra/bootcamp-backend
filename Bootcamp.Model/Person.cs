@@ -7,8 +7,8 @@
         public string LastName { get; set; }
 
         public int DocumentTypeId { get; set; }
+        public string DocumentNumber { get; set; }
+        public DateTime? Birthday { get; set; }
 
-        public String DocumentNumber { get; set; }
-       
     }
 }
